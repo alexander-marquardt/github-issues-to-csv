@@ -12,6 +12,8 @@ personal access token from Github.
 - Select "Personal access tokens"
 - Click "Generate new token" if you don't have one
 - Click on "Configure SSO" to ensure you have authorized to your org
+
+Refer to: https://docs.github.com/en/rest/reference/issues 
 """
 
 URL = "https://api.github.com/repos/<your org>/<repo name>/issues"
