@@ -14,7 +14,7 @@ personal access token from Github.
 - Click on "Configure SSO" to ensure you have authorized to your org
 """
 
-URL = "https://api.github.com/repos/elastic/enhancements/issues"
+URL = "https://api.github.com/repos/<your org>/<repo name>/issues"
 HEADERS = {"Authorization": f"token {os.environ['GITHUB_AUTH']}"}
 NUM_PAGES = 20
 PER_PAGE = 100
