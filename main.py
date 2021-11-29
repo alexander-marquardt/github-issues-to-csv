@@ -3,7 +3,8 @@ import csv
 import os
 import datetime
 
-""" To run this script, if you are connecting to a private repo, you will need a 
+""" 
+To run this script, if you are connecting to a private repo, you will need a 
 personal access token from Github. 
 - Click on your photo in the top right
 - Select "Settings" from the dropdown
@@ -11,7 +12,7 @@ personal access token from Github.
 - Select "Personal access tokens"
 - Click "Generate new token" if you don't have one
 - Click on "Configure SSO" to ensure you have authorized to your org
-
+"""
 
 URL = "https://api.github.com/repos/elastic/enhancements/issues"
 HEADERS = {"Authorization": f"token {os.environ['GITHUB_AUTH']}"}
