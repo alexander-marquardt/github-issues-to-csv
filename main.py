@@ -16,7 +16,7 @@ personal access token from Github.
 Refer to: https://docs.github.com/en/rest/reference/issues 
 """
 
-URL = "https://api.github.com/repos/<your org>/<repo name>/issues"
+URL = "https://api.github.com/repos/elastic/enhancements/issues"
 HEADERS = {"Authorization": f"token {os.environ['GITHUB_AUTH']}"}
 NUM_PAGES = 20
 PER_PAGE = 100
